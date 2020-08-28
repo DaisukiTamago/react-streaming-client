@@ -11,9 +11,10 @@ https://github.com/DaisukiTamago/nodejs-video-streaming-mvc
 
 
 ### Setup
-After clone the project:
-`yarn install`: to install the dependencies
-`yarn start`: get the app running
-`yarn build`: build the project into static files ready to distribution
+After clone the project:  
+
+`yarn install`: to install the dependencies  
+`yarn start`: get the app running  
+`yarn build`: build the project into static files ready to distribution  
 
 
