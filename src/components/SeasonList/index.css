@@ -1,0 +1,87 @@
+.Collapsible {
+    background-color: #E50914;;
+    width: 80%;
+    text-align: center;
+    transition: 0.7s;
+    margin: 10px;
+}
+
+
+.Collapsible__contentOuter{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.Collapsible__contentInner{
+    background-color: black;
+    color: black;
+}
+
+.Collapsible__trigger {
+    cursor: pointer;
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-size: 35px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 6px;
+    text-shadow: 0 0 5px grey;
+}
+
+.Collapsible__trigger:hover{
+    box-shadow: 0 0 5px white;
+}
+
+.Collapsible__item {
+    padding: 5px;
+    transition: 0.5s;
+    display: flex;
+    cursor: pointer;
+}
+
+.Collapsible__item img {
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.Collapsible__item:hover {
+    background-color: #E50914;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+
+.item-title{
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-size: 35px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 6px;
+    cursor: pointer;
+    text-shadow: 0 0 5px grey;
+    margin: 5px;
+}
+.item-overview {
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: justify;
+    letter-spacing: -0.7px;
+    text-shadow: 0 0 5px grey;
+    padding: 10px;
+}

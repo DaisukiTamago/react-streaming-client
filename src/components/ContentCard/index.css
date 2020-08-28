@@ -1,0 +1,22 @@
+.content-card {
+    min-height: 150px;
+    min-width: 150px;
+    display: flex;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: 5px;
+    position: relative;
+    object-fit: contain;
+    background-color: grey;
+}
+
+.content-card:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.content-card img {
+    width: 100%;
+    height: auto;
+}
